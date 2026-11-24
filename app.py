@@ -21,3 +21,7 @@ def record_harvest(field_name, amount):
     print(f"Hosil qayd etildi: {field_name} - {amount} {UNIT}")
 
 record_harvest("Shimoliy dala", 45.0)
+
+def register_sale(product, amount, price):
+    sales.append({"product": product, "amount": amount, "unit": UNIT, "price": price})
+    print(f"Sotuv: {product}, {amount} {UNIT}, {price} so'm")

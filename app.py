@@ -19,3 +19,5 @@ add_field("Shimoliy dala", 12.5)
 def record_harvest(field_name, amount):
     harvests.append({"field": field_name, "amount": amount, "unit": UNIT})
     print(f"Hosil qayd etildi: {field_name} - {amount} {UNIT}")
+
+record_harvest("Shimoliy dala", 45.0)

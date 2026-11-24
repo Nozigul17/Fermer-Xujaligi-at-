@@ -1,4 +1,4 @@
-UNIT = "tonna"
+UNIT = "kg"
 fields = []
 harvests = []
 sales = []

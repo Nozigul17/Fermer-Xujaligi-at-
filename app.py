@@ -1,4 +1,4 @@
-UNIT = "sentner"
+UNIT = "kg"
 fields = []
 harvests = []
 sales = []

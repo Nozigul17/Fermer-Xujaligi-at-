@@ -13,3 +13,5 @@ def list_fields():
 
 if __name__ == "__main__":
     list_fields()
+
+add_field("Shimoliy dala", 12.5)

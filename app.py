@@ -25,3 +25,5 @@ record_harvest("Shimoliy dala", 45.0)
 def register_sale(product, amount, price):
     sales.append({"product": product, "amount": amount, "unit": UNIT, "price": price})
     print(f"Sotuv: {product}, {amount} {UNIT}, {price} so'm")
+
+register_sale("Bug'doy", 10, 25000000)
